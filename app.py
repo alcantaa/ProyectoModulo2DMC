@@ -13,7 +13,7 @@ if archivo is not None:
 
     try:
         if archivo.name.lower().endswith(".csv"):
-            datos = pd.read_csv(archivo)
+            datos = pd.read_csv(archivo, sep = ";")
 
         elif archivo.name.lower().endswith(".xlsx"):
             datos = pd.read_excel(archivo)
