@@ -47,7 +47,7 @@ sns.set_style("whitegrid")
  
 AUTOR = "Alexander Alcantara"
 CURSO = "Especialización en Python for Analytics — DMC Institute"
-AÑO = 2026
+ANIO = 2026
  
  
 
