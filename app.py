@@ -45,16 +45,17 @@ import seaborn as sns
 st.set_page_config(page_title="EDA - Bank Marketing", page_icon="📊", layout="wide")
 sns.set_style("whitegrid")
  
-AUTOR = "Alexander [Completa tu apellido aquí]"
+AUTOR = "Alexander Alcantara"
 CURSO = "Especialización en Python for Analytics — DMC Institute"
-ANIO = 2026
+AÑO = 2026
  
  
-# =============================================================================
+
 # CLASE (POO) — DataAnalyzer
 # Encapsula estadísticas descriptivas, clasificación de variables y
 # funciones de visualización reutilizables en toda la app.
-# =============================================================================
+
+
 class DataAnalyzer:
     """Encapsula la lógica de análisis exploratorio sobre un DataFrame."""
  
